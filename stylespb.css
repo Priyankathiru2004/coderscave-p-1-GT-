@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF69B4; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+#weather p,
+#food p,
+#dress p {
+    text-align: justify;
+}
+
+#weather p:after,
+#food p::after,
+#dress p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+section {
+    background-color: #FFFACD; 
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #32CD32; 
+    transition: color 0.3s ease;
+}
+
+section:hover h2 {
+    color: #333;
+}
+
+section p {
+    color: #333;
+}
+
+footer {
+    background-color: #FF69B4; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
